@@ -105,4 +105,4 @@ if __name__ == "__main__":
     app.run(host=host,port=port,debug=DEBUG)
     SENTENCE_FILE.close()
     # lines = load_key_words("train/word.txt")
-     print(2222222)
+    print(333333)
