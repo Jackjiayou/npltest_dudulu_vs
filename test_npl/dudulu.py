@@ -102,7 +102,7 @@ if __name__ == "__main__":
     else:
         host = "localhost"
     print("listen %s port: %s"%(host,port))
-    app.run(host=host,port=port,debug=DUBUG)
+    app.run(host=host,port=port,debug=DEBUG)
     SENTENCE_FILE.close()
     # lines = load_key_words("train/word.txt")
     # print(lines)
